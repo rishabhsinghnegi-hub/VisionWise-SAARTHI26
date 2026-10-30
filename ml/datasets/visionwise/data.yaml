@@ -1,0 +1,14 @@
+
+path: C:/Crishabh/VisionWise-SAARTHI26/ml/datasets/visionwise
+
+train: images/train
+val: images/val
+
+names:
+  0: cable
+  1: floor_object
+  2: stairs
+  3: curb
+  4: traffic_light
+  5: stop_sign
+

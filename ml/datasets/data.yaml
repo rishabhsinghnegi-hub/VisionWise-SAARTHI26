@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Cables']
+
+roboflow:
+  workspace: allen-cct7s
+  project: cables-fpj6n
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/allen-cct7s/cables-fpj6n/dataset/5

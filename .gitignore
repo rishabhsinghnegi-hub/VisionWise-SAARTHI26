@@ -1,0 +1,118 @@
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python environments and generated files
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+*.pyd
+
+# Node and Next.js generated files
+**/node_modules/
+**/.next/
+**/out/
+**/coverage/
+**/*.tsbuildinfo
+
+# Local runtime data and inference outputs
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/runs/
+apps/api/esp32_test.jpg
+
+# Local certificates and private keys
+**/*.pem
+**/certificates/
+
+# Generated project file dump
+/project_files.txt
+
+# Preserve the former apps/web Git metadata locally without nesting a submodule.
+/apps/web/.git-local-backup/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Build files
+dist/
+build/
+
+# ML training outputs
+runs/
+ml/runs/
+
+# IDE files
+.vscode/
+
+# Logs
+*.log
+
+# Large model weights (upload separately if needed)
+*.pt
+*.pth
+*.onnx
+
+
+
+# Python virtual environments
+**/.venv/
+**/venv/
+
+# Node dependencies
+**/node_modules/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build outputs
+**/dist/
+**/build/
+
+# YOLO training outputs
+**/runs/
+
+# IDE files
+.vscode/
+
+# Logs
+*.log
+
+
+# Dataset files
+ml/datasets/train/
+ml/datasets/valid/
+
+# Model weights
+*.pt
+
+# Incomplete downloads
+*.part
